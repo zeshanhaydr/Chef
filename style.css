@@ -1,0 +1,35 @@
+/* GUIDE */
+/* FONTS */
+/* 
+74px   62px   40px   28px   16px
+*/
+/* COLOR */
+/* Primary:#FF8D1A, #FFCC8A, #FFE4C1, #FCE8E1, #FCE8E1
+   Greys and Blacks:#1E1913, #8F8F8F, #CBCBCB, #EBEBEB  */
+/* BORDER RADIUS */
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  font-family: poppins;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* Header */
+
+.section-header {
+  display: flex;
+}
+
+.logo {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.navigation-bar {
+  gap: 10.8rem;
+  justify-content: center;
+}
