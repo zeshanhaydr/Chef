@@ -4,8 +4,8 @@
 74px   62px   40px   28px   16px
 */
 /* COLOR */
-/* Primary:#FF8D1A, #FFCC8A, #FFE4C1, #FCE8E1, #FCE8E1
-   Greys and Blacks:#1E1913, #8F8F8F, #CBCBCB, #EBEBEB  */
+/* Primary:#FF8D1A, #FFCC8A, #FFE4C1, #FCE8E1, #FCE8E1 #F28C25 #
+   Greys and Blacks:#1E1913, #8F8F8F, #CBCBCB, #EBEBEB #747474 */
 /* BORDER RADIUS */
 * {
   margin: 0;
@@ -22,14 +22,117 @@ html {
 
 .section-header {
   display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0 8rem 0 8rem;
 }
 
-.logo {
+.logo-text {
   font-size: 3.2rem;
   font-weight: 600;
+  line-height: 2;
 }
 
-.navigation-bar {
-  gap: 10.8rem;
+.nav-text {
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 4;
+  padding: 4rem;
+  font-weight: 400;
+  color: #747474;
+}
+
+.nav-text_1 {
+  color: #f28c25;
+  font-weight: 500;
+}
+
+.icon-header {
+  padding: 0.2rem;
+}
+
+/* Section-Hero */
+
+.rectangle {
+  height: 80rem;
+  background-color: rgb(255, 234, 226);
+  margin: 8rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-size: 6.4rem;
+  margin-left: 8rem;
+  margin-top: 25rem;
+}
+
+.sub-heading {
+  font-size: 2.6rem;
+  margin-left: 8rem;
+  margin-top: 6rem;
+}
+
+.hero-paragraph {
+  box-sizing: border-box;
+  line-height: 3rem;
+  font-size: 1.6rem;
+  margin-left: 8rem;
+  margin-top: 6rem;
+  max-width: 60rem;
+
+  margin-bottom: 6rem;
+}
+
+.email-input {
+  border: none;
+  background-color: white;
+  padding: 1.8rem;
+  margin-left: 8rem;
+  width: 45%;
+  border-radius: 0.5rem;
+}
+
+::placeholder {
+  font-size: 1.4rem;
+  color: #c0c0c0;
+}
+
+.first-two {
+  font-weight: 500;
+}
+
+.last-two {
+  color: #ff7904;
+}
+
+.sub-heading {
+  color: #747474;
+  font-weight: 500;
+}
+
+.send-btn {
+  padding: 2.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #ff7904;
+  font-size: 1.4rem;
+  margin-left: 0.8rem;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hero-img {
+  display: flex;
+  /* align-items: center; */
   justify-content: center;
+  padding: 0rem 26rem 0rem 26rem;
+}
+
+.chef {
+  scale: 110%;
+  translate: 0 -5%;
+  box-shadow: 2px 2px 5px black;
 }
