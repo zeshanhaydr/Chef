@@ -66,6 +66,7 @@ html {
   font-size: 6.4rem;
   margin-left: 8rem;
   margin-top: 25rem;
+  line-height: 1;
 }
 
 .sub-heading {
@@ -134,5 +135,58 @@ html {
 .chef {
   scale: 110%;
   translate: 0 -5%;
-  box-shadow: 2px 2px 5px black;
+}
+
+/* Section-About */
+.section-about {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 8rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-about {
+  width: 650px;
+  height: 500px;
+  border-radius: 6rem;
+  padding: 0 6rem 0 6rem;
+}
+
+.header-about {
+  font-size: 6.4rem;
+  color: #3b2311;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  padding: 2.5rem 0 4rem 0;
+}
+
+.chef-word {
+  font-weight: 700;
+  color: #e6821d;
+  margin-bottom: 4rem;
+}
+
+.paragraph-1 {
+  margin-bottom: 3rem;
+}
+
+.paragraph {
+  max-width: 40rem;
+  line-height: 1.8;
+  font-size: 1.6rem;
+  text-align: left;
+}
+.btn-about {
+  margin: 0;
+  align-items: left;
+  max-width: 40%;
+}
+
+.set-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
